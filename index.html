@@ -20,7 +20,7 @@
 
     <!----------------------------------------------------NavBar------------------------------------------------------------------------------->
     <nav class="bg-deepBlue flex ">
-        <div class="relative w-[1080px] mx-auto flex items-center justify-between  px-10 lg:p-0">
+        <div class="relative w-[1080px] mx-auto flex items-center justify-between p-5 sm:px-10 lg:p-0">
             <!-- logo -->
             <a href="#" class="cursor-pointer py-7 pr-7">
                 <img src="./img/logo.svg" alt="" width="140" />
@@ -148,7 +148,7 @@
 
             <!-- content box -->
             <div
-                class="w-full min-h-[520px] overflow-hidden mt-[75px] bg-white flex rounded-md relative p-10 py-12 border">
+                class="w-full min-h-[520px] overflow-hidden mt-[75px] bg-white flex rounded-md relative p-0 md:p-10 py-12 border">
                 <!-- Left section -->
                 <div class="flex flex-col justify-between w-full">
                     <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
@@ -540,7 +540,7 @@
 
                 <!-- content box -->
                 <div
-                    class="w-full overflow-hidden mt-[10px] bg-[#181c2e] flex rounded-md relative p-10 py-12 border border-slate-700 ">
+                    class="w-full overflow-hidden mt-[10px] bg-[#181c2e] flex rounded-md relative p-0 md:p-10 py-12 md:border md:border-slate-700 ">
                     <!-- Left section -->
                     <div class="flex flex-col justify-between w-full">
                         <h3 class="font-mullish text-[28px] text-white leading-10 font-bold max-w-[500px]">
@@ -578,13 +578,13 @@
                         </ul>
 
                         <!-- For Buttton and Hyperlink-->
-                        <div class="flex flex-row w-full items-center space-x-4">
-                            <button class="relative bg-lightBlue flex items-center
-                                    justify-start text-white py-[14px] px-[18px] pr-[90px]
+                        <div class="flex flex-col-reverse gap-4 md:gap-0 md:flex-row w-full md:items-center space-x-4">
+                            <button class="relative bg-lightBlue flex items-center justify-center md:justify-start
+                                     text-white py-[14px] px-[18px] pr-[90px]
                                     rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 ">
                                 Sign Up
                                 <div
-                                    class="w-12 h-[60px] bg-greenlight absolute right-6 skew-x-[20deg] flex justify-center items-center ">
+                                    class="w-12 h-[60px] bg-greenlight absolute right-28 md:right-6 skew-x-[20deg] flex justify-center items-center ">
                                     <!-- Arrow -->
                                     <svg viewBox="0 0 24 24" focusable="false"
                                         class="w-[20px] h-[20px] -skew-x-[20deg]">
@@ -934,7 +934,7 @@
     <!-----------------------------------------------Core Feature--------------------------------------------------------------------------->
     <section class="bg-[url(img/core-features-sectionBg.svg)] corefeaturesection  bg-[100% 100%] bg-no-repeat pt-[12rem] pb-[12rem] overflow-x-hidden">
 
-        <div class="relative w-11/12 max-w-[1080px]  mx-auto pt-[5rem] md:p-0">
+        <div class="relative w-11/12 lg:max-w-[1080px]  mx-auto pt-[10rem] md:p-0">
 
             <h2 class=" text-white  leading-[1.2] text-2xl font-mullish font-extrabold text-center">
                 Features
@@ -945,7 +945,7 @@
                 Empower your business with all the right tools to accept online <br>
                 payments and provide the best customer experience
             </p>
-            <div class="grid md:grid-cols-1 lg:grid-cols-4 gap-[2.5rem] p-10 mt-2">
+            <div class="grid md:grid-cols-1 lg:grid-cols-4 gap-[2.5rem] p-0 lg:p-10 mt-10">
                 <!-- Card 1 -->
                 <div>
                     <img src="img/instant-activation-icon.svg" alt="" class="w-10 h-10 ">
@@ -1170,7 +1170,7 @@
 
     <!---------------------------------------------CTA Section--------------------------------------------------------------------------->
     <section
-        class="bg-[url(img/CTABg.svg)] relative w-full h-[600px] md:h-[530px] CTAsection bg-cover bg-no-repeat mt-[-5rem] md:pt-[8rem] pt-[11rem] z-[100] overflow-x-hidden">
+        class="bg-[url(img/CTABg.svg)] relative w-full h-[1000px] bg-right md:h-[530px] CTAsection bg-cover bg-no-repeat mt-[-5rem] md:pt-[8rem] pt-[21rem] z-[100] overflow-x-hidden">
         <div class="relative w-11/12 max-w-[1080px]  mx-auto flex ">
 
             <!-- Left Part -->
@@ -1262,7 +1262,7 @@
             </div>
 
             <!-- Remaining Columns -->
-            <div class="flex flex-row space-x-[3rem]">
+            <div class="flex flex-col md:flex-row gap-5 md:space-x-[3rem]">
                 <!-- Second Column -->
                 <div class="space-y-6">
 
@@ -1781,7 +1781,7 @@
                         <p class="font-mullish leading-[28px] font-bold text-gray2 ">
                             FIND US ONLINE
                         </p>
-                        <div class="flex justify-between mt-3">
+                        <div class="flex justify-between mt-3 max-w-[250px]">
                             <img src="img/facebook-icon.svg" alt="">
                             <img src="img/twitter-icon.svg" alt="">
                             <img src="img/instagram-icon.svg" alt="">
